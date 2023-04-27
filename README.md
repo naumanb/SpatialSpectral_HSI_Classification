@@ -39,7 +39,11 @@ The project implements and compares two spatial-spectral HSI classification meth
 The dataset used in this project is the AVIRIS Indian Pines dataset, which consists of an HSI image of 145x145 pixels and 224 different spectral bands. The scene includes agricultural, forest, and vegetation objects, as well as structures such as highways, rail lines, and housing. Objects within the scene are distributed into 16 different class labels of crops, such as corn and soybeans.
 
 ## Results
-The performance of the implemented classification methods is evaluated using the overall accuracy, kappa coefficient metrics, and total time taken. Detailed results and discussions can be found in the project report.
+The performance of the implemented classification methods is evaluated using the overall accuracy, kappa coefficient metrics, and total time taken. 
+
+![metric_results](https://user-images.githubusercontent.com/15255699/234968531-943a91df-767a-4b2d-b878-b29460c6b236.png)
+
+
 
 ## License
 This project is released under the MIT License. See LICENSE for details.
