@@ -5,8 +5,8 @@ This project explores the classification of hyperspectral images using a fusion 
 The project implements and compares two spatial-spectral HSI classification methods and evaluates their performance in terms of accuracy, kappa coefficient, and total time taken.
 
 ## Implemented Methods
-- Semi-supervised learning method for classification based on Spatial Majority Voting [5].
-- Edge-Preserving Filters (EPFs) method with PCA-based dimensionality reduction [6].
+- Semi-supervised learning method for classification based on Spatial Majority Voting [1].
+- Edge-Preserving Filters (EPFs) method with PCA-based dimensionality reduction [2].
 
 ## Installation
 1. Install MATLAB (version R2021a or later) from the official website.
@@ -53,6 +53,15 @@ This project is released under the MIT License. See LICENSE for details.
 This project was developed by Nauman Baig under the supervision of Prof. Ling Guan at Ryerson University.
 
 ## References
-[1] Kang Xudong (2020). Hyperspectral Image Classification (https://www.mathworks.com/matlabcentral/fileexchange/69242-hyperspectral-image-classification), MATLAB Central File Exchange. Retrieved April 18, 2020.
+[1] Deok Han, Qian Du, and Nicolas H Younan. "Semisupervised classification of
+hyperspectral remote sensing images with spatial majority voting". In: 2016 9th
+IAPR Workshop on Pattern Recogniton in Remote Sensing (PRRS). IEEE. 2016,
+pp. 1-4.
+
+[2] Xudong Kang et al. "PCA-based edge-preserving features for hyperspectral im-
+age classification". In: IEEE Transactions on Geoscience and Remote Sensing
+55.12 (2017), pp. 7140-7151.
+
+[3] Kang Xudong (2020). Hyperspectral Image Classification (https://www.mathworks.com/matlabcentral/fileexchange/69242-hyperspectral-image-classification), MATLAB Central File Exchange. Retrieved April 18, 2020.
 
 [2] Galad_Loth (2020). Hyperspectral Image Classification (https://github.com/galad-loth), Github.
