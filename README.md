@@ -16,23 +16,24 @@ The project implements and compares two spatial-spectral HSI classification meth
 - Statistics and Machine Learning Toolbox
 
 ## Usage
-1. Download the AVIRIS Indian Pines dataset from the following link: Indian Pines Dataset
+1. Download the following datasets:
+- AVIRIS Indian Pines dataset: [Indian Pines Dataset](https://purr.purdue.edu/publications/1947/1)
+- Pavia University dataset: [Pavia University Dataset](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes#Pavia_University_scene)
+- Pavia Centre dataset: [Pavia Centre Dataset](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes#Pavia_University_scene)
 
-2. Place the downloaded dataset in the data folder within the project directory.
+2. Place the downloaded datasets in the `data` folder within the `SpatialMajorityVoting` and `PCA-EPFs` directories.
 
 ### For Spectral Classifier
-1. Open the 'SpatialMajorityVoting' folder in MATLAB.
-2. Run the 'DemoSpectralClassifier' MAT file.
+1. Open the `SpatialMajorityVoting` folder in MATLAB.
+2. Run the `DemoSpectralClassifier` MAT file.
 
 ### For SpatialMajorityVoting Classifier
-1. Open the 'SpatialMajorityVoting' folder in MATLAB.
-2. Run the 'DemoSpatialClassifier.m' MAT file.
+1. Open the `SpatialMajorityVoting` folder in MATLAB.
+2. Run the `DemoSpatialClassifier.m` MAT file.
 
 ### For PCA-EPFs Classifier
-1. Open the 'PCA-EPFs' folder in MATLAB.
-2. Run the 'pca_epfssdemo.m' MAT file.
-
-
+1. Open the `PCA-EPFs` folder in MATLAB.
+2. Run the `pca_epfssdemo.m` MAT file.
 
 ## Dataset
 The dataset used in this project is the AVIRIS Indian Pines dataset, which consists of an HSI image of 145x145 pixels and 224 different spectral bands. The scene includes agricultural, forest, and vegetation objects, as well as structures such as highways, rail lines, and housing. Objects within the scene are distributed into 16 different class labels of crops, such as corn and soybeans.
@@ -45,3 +46,8 @@ This project is released under the MIT License. See LICENSE for details.
 
 ## Acknowledgements
 This project was developed by Nauman Baig under the supervision of Prof. Ling Guan at Ryerson University.
+
+## References
+[1] Kang Xudong (2020). Hyperspectral Image Classification (https://www.mathworks.com/matlabcentral/fileexchange/69242-hyperspectral-image-classification), MATLAB Central File Exchange. Retrieved April 18, 2020.
+
+[2] Galad_Loth (2020). Hyperspectral Image Classification (https://github.com/galad-loth), Github.
