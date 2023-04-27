@@ -42,7 +42,8 @@ The dataset used in this project is the AVIRIS Indian Pines dataset, which consi
 The performance of the implemented classification methods is evaluated using the overall accuracy, kappa coefficient metrics, and total time taken. 
 
 ![metric_results](https://user-images.githubusercontent.com/15255699/234968531-943a91df-767a-4b2d-b878-b29460c6b236.png)
-
+![SMV_map](https://user-images.githubusercontent.com/15255699/234968863-95e042a1-8f62-453e-bcd3-126f5a5e7316.png)
+![PCAEPF_map](https://user-images.githubusercontent.com/15255699/234968867-19d6b129-9f12-4aa0-af92-db98098a4c88.png)
 
 
 ## License
